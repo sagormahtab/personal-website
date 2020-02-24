@@ -115,6 +115,12 @@ body{
 .client-quote p{
     font-size: 18px;
 }
+.client-quote p::before{
+    content: '"';
+}
+.client-quote p::after{
+    content: '"';
+}
 .btn-wrapper{
     width: 50%;
     margin: 0 auto;
