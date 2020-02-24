@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#introduction{
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#introduction div{
+    width: 40%;
+    float: left;
+}
+.intro-text, .bio-text{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.intro-text h2, .bio-text h2{
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+.intro-text h1{
+    color: #EC4C7A;
+    margin-top: 0;
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.intro-text p, .bio-text p{
+    color: #7F7F7F;
+}
+.intro-text .hirebtn, .bio-text .cvbtn{
+    color: #fff;
+    background-image: linear-gradient(180deg, #EC5195, #ED4B70);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.intro-img img, .bio-image img{
+    width: 100%;
+}
+#biography{
+    padding-top: 8%;
+    padding-bottom: 8%;
+    overflow: hidden;
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#biography div{
+    width: 35%;
+    float: left;
+}
+.bio-image{
+    margin-left: 10%;
+}
+.bio-text p{
+    font-size: 15px;
+}
+.section-header{
+    font-size: 35px;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.align-center{
+    text-align: center;
+}
+#latest-work{
+    overflow: hidden;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 8%;
+}
+#latest-work .first-image{
+    margin-left: 10%;
+}
+#latest-work div{
+    width: 25%;
+    margin-right: 2.5%;
+    float: left;
+}
+#latest-work div:last-child{
+    margin-right: 0;
+}
+#latest-work img{
+    width: 100%;
+}
+#client{
+    padding-bottom: 8%;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+#client p,h3{
+    margin: 0;
+}
+#client .founder{
+    color: #7F7F7F;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.client-quote{
+    margin: 0 auto;
+    width: 30%;
+    margin-bottom: 70px;
+}
+.client-quote p{
+    font-size: 18px;
+}
+.btn-wrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+.btn-wrapper button{
+    background-image: linear-gradient(180deg, #EC5195, #ED4B70);
+    border-style: none;
+    border-radius: 10px;
+    color: #FEF9FC;
+    width: 100%;
+    padding: 40px 0 60px 0;
+}
+.btn-wrapper p:first-child{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px !important;
+}
+.btn-wrapper p:last-child{
+    font-size: 24px;
+}
+footer p{
+    text-align: center;
+    color: #7F7F7F;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
