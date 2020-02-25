@@ -32,7 +32,7 @@ body{
 .intro-text p, .bio-text p{
     color: #7F7F7F;
 }
-.intro-text .hirebtn, .bio-text .cvbtn{
+.btn{
     color: #fff;
     background-image: linear-gradient(180deg, #EC5195, #ED4B70);
     text-decoration: none;
@@ -44,7 +44,7 @@ body{
 .intro-img img, .bio-image img{
     width: 100%;
 }
-#biography{
+#biography, #pricing{
     padding-top: 8%;
     padding-bottom: 8%;
     overflow: hidden;
@@ -70,6 +70,10 @@ body{
 .align-center{
     text-align: center;
 }
+.center-element{
+    display: block;
+    margin: 0 auto;
+}
 #latest-work{
     overflow: hidden;
     background-image: url(images/latest-work-bg.png);
@@ -77,15 +81,15 @@ body{
     background-size: cover;
     padding-bottom: 8%;
 }
-#latest-work .first-image{
+#latest-work .first-image, #pricing .first-pricing{
     margin-left: 10%;
 }
-#latest-work div{
+.one-of-three{
     width: 25%;
     margin-right: 2.5%;
     float: left;
 }
-#latest-work div:last-child{
+.one-of-three:last-child{
     margin-right: 0;
 }
 #latest-work img{
@@ -140,6 +144,48 @@ body{
 }
 .btn-wrapper p:last-child{
     font-size: 24px;
+}
+#pricing{
+    padding-top: 0;
+}
+#pricing p{
+    margin: 0;
+    padding: 0;
+}
+#pricing .pricing-title{
+    font-size: 25px;
+}
+.pricing-amount{
+    font-size: 35px;
+    color: #EC4C7A;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+#pricing span{
+    font-size: 15px;
+    color: #cccccc;
+}
+.price-btn-wrapper{
+    text-align: center;
+}
+ul li{
+    list-style-type: none;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    color: #7F7F7F;
+}
+li::before{
+    content: "✔️";
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+}
+.pricing-bg{
+    background: #fff;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 10px;
 }
 footer p{
     text-align: center;
